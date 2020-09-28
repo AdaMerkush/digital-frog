@@ -1,15 +1,17 @@
-.test {
-  color: #FFF;
+@import "includes/normalize";
+@import "includes/variables";
+@import "includes/mixins";
+@import "includes/global";
 
-  &__inner {
-    color: #000;
-  }
+@import "blocks/page";
+@import "blocks/header";
+@import "blocks/about";
+@import "blocks/events";
+@import "blocks/news";
+@import "blocks/visitors";
+@import "blocks/footer";
 
-  &__inner-2 {
-    color: #000;
-  }
+@import "blocks/buttons";
 
-  &__inner-3 {
-    color: #000;
-  }
-}
+@import "blocks/nav";
+
